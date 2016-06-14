@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F32A42BA1D0F02C500F5D29E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32A42B91D0F02C500F5D29E /* AppDelegate.swift */; };
+		F32A42BC1D0F02C500F5D29E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32A42BB1D0F02C500F5D29E /* ViewController.swift */; };
+		F32A42BF1D0F02C500F5D29E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F32A42BD1D0F02C500F5D29E /* Main.storyboard */; };
+		F32A42C11D0F02C500F5D29E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F32A42C01D0F02C500F5D29E /* Assets.xcassets */; };
+		F32A42C41D0F02C500F5D29E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F32A42C21D0F02C500F5D29E /* LaunchScreen.storyboard */; };
+		F32A42CF1D0F02C600F5D29E /* TiltingCarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32A42CE1D0F02C600F5D29E /* TiltingCarouselTests.swift */; };
+		F32A42DA1D0F02F100F5D29E /* TiltingCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32A42D91D0F02F100F5D29E /* TiltingCarousel.swift */; };
+		F32A42DC1D0F035500F5D29E /* CarouselKeyframes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32A42DB1D0F035500F5D29E /* CarouselKeyframes.swift */; };
+		F32A42DD1D0F035500F5D29E /* CarouselKeyframes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32A42DB1D0F035500F5D29E /* CarouselKeyframes.swift */; };
+		F3866E431D10608B00D1E017 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3866E421D10608B00D1E017 /* SpringAnimation.swift */; };
+		F3866E441D10608B00D1E017 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3866E421D10608B00D1E017 /* SpringAnimation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F32A42CB1D0F02C600F5D29E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F32A42AE1D0F02C500F5D29E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F32A42B51D0F02C500F5D29E;
+			remoteInfo = TiltingCarousel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F32A42B61D0F02C500F5D29E /* TiltingCarousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiltingCarousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32A42B91D0F02C500F5D29E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F32A42BB1D0F02C500F5D29E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F32A42BE1D0F02C500F5D29E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F32A42C01D0F02C500F5D29E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F32A42C31D0F02C500F5D29E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F32A42C51D0F02C500F5D29E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F32A42CA1D0F02C600F5D29E /* TiltingCarouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiltingCarouselTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32A42CE1D0F02C600F5D29E /* TiltingCarouselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiltingCarouselTests.swift; sourceTree = "<group>"; };
+		F32A42D01D0F02C600F5D29E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F32A42D91D0F02F100F5D29E /* TiltingCarousel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TiltingCarousel.swift; sourceTree = "<group>"; };
+		F32A42DB1D0F035500F5D29E /* CarouselKeyframes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselKeyframes.swift; sourceTree = "<group>"; };
+		F3866E421D10608B00D1E017 /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F32A42B31D0F02C500F5D29E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32A42C71D0F02C600F5D29E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F32A42AD1D0F02C500F5D29E = {
+			isa = PBXGroup;
+			children = (
+				F32A42B81D0F02C500F5D29E /* TiltingCarousel */,
+				F32A42CD1D0F02C600F5D29E /* TiltingCarouselTests */,
+				F32A42B71D0F02C500F5D29E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F32A42B71D0F02C500F5D29E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F32A42B61D0F02C500F5D29E /* TiltingCarousel.app */,
+				F32A42CA1D0F02C600F5D29E /* TiltingCarouselTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F32A42B81D0F02C500F5D29E /* TiltingCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				F32A42B91D0F02C500F5D29E /* AppDelegate.swift */,
+				F32A42BB1D0F02C500F5D29E /* ViewController.swift */,
+				F32A42BD1D0F02C500F5D29E /* Main.storyboard */,
+				F32A42D91D0F02F100F5D29E /* TiltingCarousel.swift */,
+				F3866E421D10608B00D1E017 /* SpringAnimation.swift */,
+				F32A42DB1D0F035500F5D29E /* CarouselKeyframes.swift */,
+				F32A42C01D0F02C500F5D29E /* Assets.xcassets */,
+				F32A42C21D0F02C500F5D29E /* LaunchScreen.storyboard */,
+				F32A42C51D0F02C500F5D29E /* Info.plist */,
+			);
+			path = TiltingCarousel;
+			sourceTree = "<group>";
+		};
+		F32A42CD1D0F02C600F5D29E /* TiltingCarouselTests */ = {
+			isa = PBXGroup;
+			children = (
+				F32A42CE1D0F02C600F5D29E /* TiltingCarouselTests.swift */,
+				F32A42D01D0F02C600F5D29E /* Info.plist */,
+			);
+			path = TiltingCarouselTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F32A42B51D0F02C500F5D29E /* TiltingCarousel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F32A42D31D0F02C600F5D29E /* Build configuration list for PBXNativeTarget "TiltingCarousel" */;
+			buildPhases = (
+				F32A42B21D0F02C500F5D29E /* Sources */,
+				F32A42B31D0F02C500F5D29E /* Frameworks */,
+				F32A42B41D0F02C500F5D29E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiltingCarousel;
+			productName = TiltingCarousel;
+			productReference = F32A42B61D0F02C500F5D29E /* TiltingCarousel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F32A42C91D0F02C600F5D29E /* TiltingCarouselTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F32A42D61D0F02C600F5D29E /* Build configuration list for PBXNativeTarget "TiltingCarouselTests" */;
+			buildPhases = (
+				F32A42C61D0F02C600F5D29E /* Sources */,
+				F32A42C71D0F02C600F5D29E /* Frameworks */,
+				F32A42C81D0F02C600F5D29E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F32A42CC1D0F02C600F5D29E /* PBXTargetDependency */,
+			);
+			name = TiltingCarouselTests;
+			productName = TiltingCarouselTests;
+			productReference = F32A42CA1D0F02C600F5D29E /* TiltingCarouselTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F32A42AE1D0F02C500F5D29E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Straight Edge Digital";
+				TargetAttributes = {
+					F32A42B51D0F02C500F5D29E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F32A42C91D0F02C600F5D29E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F32A42B51D0F02C500F5D29E;
+					};
+				};
+			};
+			buildConfigurationList = F32A42B11D0F02C500F5D29E /* Build configuration list for PBXProject "TiltingCarousel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F32A42AD1D0F02C500F5D29E;
+			productRefGroup = F32A42B71D0F02C500F5D29E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F32A42B51D0F02C500F5D29E /* TiltingCarousel */,
+				F32A42C91D0F02C600F5D29E /* TiltingCarouselTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F32A42B41D0F02C500F5D29E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32A42C41D0F02C500F5D29E /* LaunchScreen.storyboard in Resources */,
+				F32A42C11D0F02C500F5D29E /* Assets.xcassets in Resources */,
+				F32A42BF1D0F02C500F5D29E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32A42C81D0F02C600F5D29E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F32A42B21D0F02C500F5D29E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32A42DA1D0F02F100F5D29E /* TiltingCarousel.swift in Sources */,
+				F32A42BC1D0F02C500F5D29E /* ViewController.swift in Sources */,
+				F3866E431D10608B00D1E017 /* SpringAnimation.swift in Sources */,
+				F32A42BA1D0F02C500F5D29E /* AppDelegate.swift in Sources */,
+				F32A42DC1D0F035500F5D29E /* CarouselKeyframes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32A42C61D0F02C600F5D29E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32A42CF1D0F02C600F5D29E /* TiltingCarouselTests.swift in Sources */,
+				F32A42DD1D0F035500F5D29E /* CarouselKeyframes.swift in Sources */,
+				F3866E441D10608B00D1E017 /* SpringAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F32A42CC1D0F02C600F5D29E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F32A42B51D0F02C500F5D29E /* TiltingCarousel */;
+			targetProxy = F32A42CB1D0F02C600F5D29E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F32A42BD1D0F02C500F5D29E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F32A42BE1D0F02C500F5D29E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F32A42C21D0F02C500F5D29E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F32A42C31D0F02C500F5D29E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F32A42D11D0F02C600F5D29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F32A42D21D0F02C600F5D29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F32A42D41D0F02C600F5D29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TiltingCarousel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.straightedge.TiltingCarousel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F32A42D51D0F02C600F5D29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TiltingCarousel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.straightedge.TiltingCarousel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F32A42D71D0F02C600F5D29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TiltingCarouselTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.straightedge.TiltingCarouselTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiltingCarousel.app/TiltingCarousel";
+			};
+			name = Debug;
+		};
+		F32A42D81D0F02C600F5D29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TiltingCarouselTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.straightedge.TiltingCarouselTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiltingCarousel.app/TiltingCarousel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F32A42B11D0F02C500F5D29E /* Build configuration list for PBXProject "TiltingCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32A42D11D0F02C600F5D29E /* Debug */,
+				F32A42D21D0F02C600F5D29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F32A42D31D0F02C600F5D29E /* Build configuration list for PBXNativeTarget "TiltingCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32A42D41D0F02C600F5D29E /* Debug */,
+				F32A42D51D0F02C600F5D29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F32A42D61D0F02C600F5D29E /* Build configuration list for PBXNativeTarget "TiltingCarouselTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32A42D71D0F02C600F5D29E /* Debug */,
+				F32A42D81D0F02C600F5D29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F32A42AE1D0F02C500F5D29E /* Project object */;
+}
